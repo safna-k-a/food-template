@@ -1,0 +1,157 @@
+/* author:safna K A*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open-Sans, Sans-serif;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.first {
+    background-image: url("../images/background/agency-slider-04.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -90px;
+    left: 0;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: none;
+    background-color: none !important;
+}
+.navbar-nav {
+    --bs-nav-link-color: #fff;
+    --bs-nav-link-hover-color: #fff;
+    font-size: small;
+}
+.carousel-indicators .b {
+    background-color: #000;
+}
+.second-b {
+    bottom: -35px;
+}
+.delicious {
+    background-color: #ff7b54;
+}
+.delicious h1 {
+    font-size: 60px;
+}
+.icons {
+    width: 50px;
+}
+.font {
+    font-size: 10px;
+}
+.para {
+    text-align: justify;
+}
+/* .third {
+    height: 500px;
+} */
+/* .third-sec {
+    height: 400px;
+} */
+.btn {
+    --bs-btn-border-radius: 3rem;
+}
+.third-pic {
+    background-image: url("../images/background/restaurant-about-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-toggler {
+    color: #f8f9fa;
+    background-color: #f8f9fa;
+    border: var(--bs-border-width) solid #f8f9fa;
+}
+.img1 {
+    width: 100%;
+}
+
+.four {
+    background-image: url("../images/background/restaurant-menu-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.six {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../images/background/hero-bg9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quote {
+    font-size: 50px;
+}
+.card-text {
+    font-size: 15px;
+}
+.card-body h5 {
+    font-size: 15px;
+}
+.card-img,
+.card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.seven-one {
+    background-image: url("../images/background/fitness-about-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seven-three {
+    background-image: url("../images/background/fitness-about-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.mobile {
+    stroke: rgb(240, 187, 28);
+    width: 15%;
+}
+.cart {
+    stroke: rgb(255, 255, 255);
+    width: 2%;
+}
+.folder {
+    stroke: rgb(255, 255, 255);
+    width: 2%;
+}
+.nine {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../images/background/hero-bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+textarea {
+    font-family: Open-Sans, Sans-serif;
+}
+input,
+textarea {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+@media screen and (max-width: 576px) {
+    .blank {
+        display: none;
+    }
+    .delicious h1 {
+        font-size: 30px;
+    }
+    .five {
+    }
+    .four {
+        background-image: none;
+        text-align: center;
+    }
+}
